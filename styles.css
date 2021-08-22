@@ -1,0 +1,30 @@
+textarea {
+    width: 600px;
+    height: 15vh;
+    display: block;
+    margin: 2vh;
+}
+
+.output {
+    border: 1px solid black;
+    width: 600px;
+    height: 15vh;
+    display: block;
+    margin: 2vh;
+}
+
+.btn {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: large;
+}
+
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+}
