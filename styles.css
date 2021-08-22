@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+:root {
+    --primary-color : black;
+    --off-white: #D1D5DB;
+    --dark-gray : #6B7280;
+}
+
+body {
+    background: var(--dark-gray);
+    margin: 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
 textarea {
     width: 600px;
     height: 15vh;
     display: block;
     margin: 2vh;
+    background: var(--off-white);
 }
 
 .output {
@@ -11,6 +25,7 @@ textarea {
     height: 15vh;
     display: block;
     margin: 2vh;
+    background: white;
 }
 
 .btn {
@@ -21,10 +36,50 @@ textarea {
     margin-bottom: 1rem;
     font-family: 'Saira Condensed', sans-serif;
     font-size: large;
+    color: white;
 }
 
 
 .btn-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-centered {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2.5rem;
+    border-bottom-left-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 3rem 1rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    margin-top: 2rem;
+}
+
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+    color: white;
 }
